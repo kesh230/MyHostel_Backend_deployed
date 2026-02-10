@@ -1,20 +1,20 @@
-# My Hostel – Backend Service 
+# My Hostel – Backend Service
 
 ## Overview
 
-My Hostel is a backend service designed to support a hostel management system by handling core business logic, data management, and secure API access. The backend provides structured endpoints for managing users, hostel operations, and daily activities.
+My Hostel is a backend service developed to support a hostel management system by handling core business logic, secure data processing, and API-based communication. The system manages hostel-related operations such as user access, resident records, and administrative workflows.
 
-The application is deployed on **Vercel**, ensuring fast access, scalability, and easy maintenance.
+The backend is deployed on **Render**, providing reliable hosting, scalability, and production-ready infrastructure.
 
 ---
 
 ## Key Features
 
 * User authentication and authorization
-* Hostel and resident data management
 * Role-based access control
-* RESTful APIs for frontend or client integration
-* Secure and scalable backend deployment
+* Hostel and resident data management
+* RESTful APIs for client integration
+* Secure and scalable backend architecture
 
 ---
 
@@ -23,8 +23,8 @@ The application is deployed on **Vercel**, ensuring fast access, scalability, an
 * Python
 * Flask
 * REST API architecture
-* Vercel (Deployment)
-* Relational database integration
+* Render (Deployment)
+* Database integration
 
 ---
 
@@ -35,7 +35,9 @@ Client Application
         |
         | HTTP Requests
         |
-     Backend APIs (Flask)
+     Flask Backend APIs
+        |
+        | Business Logic Layer
         |
         | Data Access Layer
         |
@@ -48,41 +50,42 @@ Client Application
 
 * User registration and login
 * Hostel room and resident management
-* Handling administrative operations
-* Secure request validation
-* Centralized business logic
+* Administrative operations handling
+* Centralized business logic and validation
+* API-based communication for frontend or external clients
 
 ---
 
 ## Security Practices
 
 * Secure authentication mechanisms
-* Input validation and request sanitization
+* Input validation and sanitization
 * Environment-based configuration
-* No hard-coded secrets in the codebase
+* No hard-coded secrets in the repository
 
 ---
 
 ## Deployment
 
-* Backend is deployed on **Vercel**
-* Environment variables are configured through the Vercel dashboard
-* CI/CD handled automatically on push
+* Backend is deployed on **Render**
+* Environment variables are managed using Render dashboard
+* Automatic deployment on code updates
+* Production-ready configuration
 
 ---
 
 ## Project Goals
 
-* Simplify hostel management operations
-* Provide a reliable backend service for client applications
-* Ensure scalability and maintainability
-* Follow production-level backend practices
+* Simplify hostel management workflows
+* Provide a reliable and maintainable backend system
+* Support scalable client applications
+* Follow real-world backend development standards
 
 ---
 
 ## Author Notes
 
-My Hostel backend focuses on clean API design, deployment readiness, and real-world usability. It demonstrates practical backend development using Python and cloud deployment strategies.
+My Hostel backend is designed with a focus on clean API design, maintainability, and cloud deployment best practices. The project demonstrates practical backend development using Python and Flask in a production environment.
 
 ---
 
